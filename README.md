@@ -103,10 +103,10 @@ Note: Anytime you write anything new, you must add it to the "RbRegister_" file,
 
  * *Examples of IDE's*: XCode, Eclipse Oxygen, etc.
 
- * **<add info about using a standard text editor instead>**
+ * **add info about using a standard text editor instead**
 
 
- * **<add info about vim...Will Freyman & Emma use this>**
+ * **add info about vim...Will Freyman & Emma use this**
 
  * XCode does not keep track of files, so each time you open your RevBayes project in XCode you must pull revbayes-master from git & remove reference to all of the source. 
 
@@ -132,9 +132,9 @@ Note: Anytime you write anything new, you must add it to the "RbRegister_" file,
 
 9. Scroll to “Apple LLVM ‑ [9.0] Language‑ C++” and change the ‘C++ language dialect’ to GNU++98 and change the ‘C++ standard library’ to libstdc++
 
-**<Add in steps for configuring RB in Eclipse>**
+**Add in steps for configuring RB in Eclipse**
 
-**<Add in steps for setting up vim>**
+**Add in steps for setting up vim**
 
 ----
 ## 3. Implementing a Function
@@ -146,9 +146,9 @@ There are different types of functions in RevBayes:
 
  * Member functions: do something on an object
 
- * "**<Fill in>** functions": take in an object
+ * "**Fill in** functions": take in an object
 
- * Update functions: **<Fill in>**
+ * Update functions: **Fill in**
 
  * Deterministic functions: create deterministic nodes. Must be created in the core folder.
 
@@ -164,12 +164,12 @@ There are different types of functions in RevBayes:
 
 *Note: If you write a void/IO function, you don't need to put it in the core folder unless it returns core objects.*
 
-**<Add more steps>**
+**Add more steps**
 
 *Note: Methods -> functions: returns a model object with a DAG node attached (contains member functions).*
 *Methods -> procedures: returns a workspace object (contains method procedures)*
 
-**<Add specific steps for editing the RbRegister file>**
+**Add specific steps for editing the RbRegister file**
 
 ----
 ## 4. Implementing a Distribution
@@ -209,7 +209,7 @@ Example for syntax purposes: the Beta Binomial Distribution
 
  Add your distribution to this file: You need to have an include statement at the top of the rb registered script, to effectively add your code to the RevBayes language. You also need to include it at the bottom of this file, and give it a type and a ‘new’ constructor. 
 
-**<Add specific steps for editing the RbRegister file>**
+**Add specific steps for editing the RbRegister file**
 
 
 
@@ -219,7 +219,7 @@ Example for syntax purposes: the Beta Binomial Distribution
 
 It's important to think about what types of moves are required to work on different types of objects.
 
- **<Fill in>**
+ **Fill in**
 
 ----
 ## 6. Building & Analyzing a new model
@@ -240,10 +240,10 @@ It's important to think about what types of moves are required to work on differ
 
 It's tricky to test things in RevBayes unless you have a lot of things to test. So, sometimes you may want to write Rev code to "test" your new implementations in a hack-y way. If it's working the way you want/expect, it will most likely compile successfully.
 
- **<Fill in>**
+ **Fill in**
 
 ----
 ## 8. Writing simulation scripts
 
- **<Fill in>**
+ **Fill in**
 ----
