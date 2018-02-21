@@ -1,7 +1,3 @@
-# RevBayes Developer Guide
-
-This repository is for a draft version of a RevBayes Developer Guide
-
 # RevBayes Developer's Manual
 
 ----
@@ -195,11 +191,11 @@ Example for syntax purposes: the Beta Binomial Distribution
 1. Create new .cpp & .h files in /revlanguage/distributions/math/  (named Dist_betabinomial.cpp, Dist_betaBinomial.h )
 
 2. 
- a.  Create new .cpp & .h files in /core/distributions/math/  (named BetaBinomialDistribution.cpp, BetaBinomialDistribution.h ).
+  a.  Create new .cpp & .h files in /core/distributions/math/  (named BetaBinomialDistribution.cpp, BetaBinomialDistribution.h ).
 
  This is the object oriented wrapper code, that references the functions hard-coded in step 2b.
 
- b. Create new .cpp and .h files in /core/math/Distributions/  (named DistributionBetaBinomial.cpp, DistributionBetaBinomial.h ). 
+  b. Create new .cpp and .h files in /core/math/Distributions/  (named DistributionBetaBinomial.cpp, DistributionBetaBinomial.h ). 
 
  These are the raw procedural functions in revbayes namespace (e.g. pdf, cdf, quantile); they are not derived functions. RbStatistics = namespace.
 
@@ -250,3 +246,4 @@ It's tricky to test things in RevBayes unless you have a lot of things to test. 
 ## 8. Writing simulation scripts
 
  **<Fill in>**
+----
