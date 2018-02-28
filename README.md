@@ -4,6 +4,8 @@
 ## Table of Contents
 *(See [website](http://revbayes.github.io/about.html) for installing RevBayes)*
 
+*(See [agenda](https://docs.google.com/document/d/13LS8W-HSVXuj7vuKSz888v9qcG5FQavgMYHmbkfRsMM/edit) for Hackathon agenda)*
+
 1. Overview of RevBayes layout
 
  * Github general info
